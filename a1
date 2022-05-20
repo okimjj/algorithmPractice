@@ -18,9 +18,9 @@ public class TestTest {
 			people[i] = scanner.next();
 		}
 		System.out.printf("Hello ");
-		for (int j = 0; j < people.length -1; j++) {
+		for (int j = 0; j < n -1; j++) {
 			System.out.printf("%s, ", people[j]);
 		}
-		System.out.printf("%s.", people[people.length - 1]);
+		System.out.printf("%s.", people[n - 1]);
 	}			
 }
