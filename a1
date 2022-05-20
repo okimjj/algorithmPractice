@@ -1,0 +1,26 @@
+package Chango;
+
+import java.util.Scanner;
+
+public class TestTest {
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.printf("please enter the number of people: ");
+		int n = scanner.nextInt();
+		
+		String[] people = new String[n];
+		
+		
+		for (int i = 0; i < people.length; i++) {
+			System.out.printf("이름을 입력해주세요: ");
+			people[i] = scanner.next();
+		}
+		System.out.printf("Hello ");
+		for (int j = 0; j < people.length -1; j++) {
+			System.out.printf("%s, ", people[j]);
+		}
+		System.out.printf("%s.", people[people.length - 1]);
+	}			
+}
